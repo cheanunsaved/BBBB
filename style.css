@@ -1,0 +1,129 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff8f0; /* krem lembut */
+  color: #333;
+}
+
+/* HEADER */
+header {
+  background: linear-gradient(135deg, #4db6ac, #81c784); /* hijau mint */
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3em;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.15);
+}
+
+header p {
+  margin: 10px 0 0;
+  font-size: 1.3em;
+  font-style: italic;
+  font-weight: 500;
+}
+
+/* MENU */
+.menu {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.menu h2 {
+  text-align: center;
+  font-size: 2.4em;
+  color: #388e3c; /* hijau gelap */
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+
+/* Grid layout untuk donat */
+.menu .donat-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.donat {
+  background: #ffffff;
+  border-radius: 18px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  padding: 25px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.donat:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+
+.donat img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  border: 3px solid #81c784;
+}
+
+.donat h3 {
+  margin-bottom: 12px;
+  color: #2e7d32;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.donat p {
+  font-size: 1em;
+  color: #555;
+  margin-bottom: 18px;
+  min-height: 60px;
+}
+
+/* BUTTON */
+button {
+  background-color: #ff7043; /* oranye cerah */
+  color: white;
+  border: none;
+  padding: 14px 30px;
+  font-size: 1.1em;
+  font-weight: 700;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  background-color: #e64a19;
+  box-shadow: 0 6px 15px rgba(230, 74, 25, 0.5);
+}
+
+/* FOOTER */
+footer {
+  background: linear-gradient(135deg, #4db6ac, #81c784);
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+  margin-top: 50px;
+  font-weight: 600;
+}
+
+footer h2 {
+  margin-top: 0;
+  font-size: 1.8em;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+footer p {
+  margin: 6px 0;
+  font-size: 1em;
+}
